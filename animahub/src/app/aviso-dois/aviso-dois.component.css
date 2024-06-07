@@ -1,0 +1,78 @@
+body {
+    background-color: #E8EFFD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 375px;
+    height: 600px;
+    background-color: #E8EFFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.yellow-text {
+    color: #FEB737;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 40px;
+}
+
+.buttons {
+    justify-content: space-between;
+}
+
+button {
+    background-color: #543787;
+    color: #E8EFFD;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button.skip {
+    background-color: transparent;
+    color: #543787;
+}
+
+button.next {
+    background-color: #543787;
+    color: white;
+}

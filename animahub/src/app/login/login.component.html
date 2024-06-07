@@ -1,0 +1,32 @@
+<!-- <div class="branco">
+    <p>oi</p>
+</div> -->
+
+<div class="login-page">
+    <div class="background-box"></div> <!-- Novo bloco de fundo claro -->
+    <div class="header">
+        <div class="logo">
+            <img src="assets/logo.png" alt="S.O.S PET">
+        </div>
+        <h1>S.O.S PET</h1>
+        <h2>Adote um animal</h2>
+    </div>
+    <div class="container">
+        <form>
+            <div class="input-group">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-group">
+                <input type="password" placeholder="Senha">
+            </div>
+            <div class="options">
+                <label>
+                    <input type="checkbox"> Lembrar senha
+                </label>
+                <a href="#">Esqueceu a senha?</a>
+                <a href="/register">Não tem uma conta? Criar uma</a>
+            </div>
+            <button type="submit" [routerLink]="['/home']">Entrar</button>
+        </form>
+    </div>
+</div>

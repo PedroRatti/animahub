@@ -1,0 +1,103 @@
+body {
+    background-color: #E8EFFD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    width: 100%;
+    background-color: #543787;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    font-size: 1.5em;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    background-color: #543787;
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+    color: white;
+    justify-content: center;
+}
+
+.user-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.category {
+    background-color: #D0D9F6;
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.image-gallery img {
+    width: 80px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.footer {
+    width: 100%;
+    background-color: #543787;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.footer-button.active {
+    background-color: #D0D9F6;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.footer-button .icon-home::before {
+    content: "🏠"; /* Placeholder for home icon */
+}
+
+.footer-button .icon-shop::before {
+    content: "🛒"; /* Placeholder for shop icon */
+}
+
+.footer-button .icon-paw::before {
+    content: "🐾"; /* Placeholder for paw icon */
+}
