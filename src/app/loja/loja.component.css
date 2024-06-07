@@ -1,10 +1,30 @@
 body {
-    background-color: #E8EFFD;
+    background-color: #543787;  /* Cor de fundo roxa */
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0;
     font-family: Arial, sans-serif;
+    height: 100vh;  /* Ajusta para que o body ocupe toda a altura da tela */
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;  /* Ajusta para que o wrapper ocupe toda a altura do body */
+}
+
+.container-background {
+    background-color: #E8EFFD;  /* Cor de fundo clara para o contêiner interno */
+    width: 90%;
+    border-radius: 15px;  /* Bordas arredondadas */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px; /* Adiciona espaço para o footer */
+    margin-top: 20px; /* Espaço entre o contêiner e o topo */
 }
 
 .header {
@@ -14,6 +34,8 @@ body {
     padding: 10px 0;
     color: white;
     font-size: 1.5em;
+    border-top-left-radius: 15px;  /* Bordas arredondadas */
+    border-top-right-radius: 15px; /* Bordas arredondadas */
 }
 
 .user-info {
