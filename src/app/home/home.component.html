@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOS Pet - Home</title>
 </head>
+
 <body>
-    <div class="header">
-        <h1>S.O.S PET</h1>
-    </div>
-    <div class="user-info">
-        <div class="user-icon"></div>
-        <span>NOME DO USUÁRIO</span>
-    </div>
-    <div class="container">
-        <div class="category">
-            <h2>Felinos esperando por você!</h2>
-            <p>Arraste para conhecê-los.</p>
-            <div class="image-gallery">
-                <img src="cat1.jpg" alt="Cat 1" [routerLink]="['/info']">
-                <img src="cat2.jpg" alt="Cat 2" [routerLink]="['/info']">
-                <img src="cat3.jpg" alt="Cat 3" [routerLink]="['/info']">
-            </div>
+    <div class="wrapper">
+        <div class="header">
+            <h1>S.O.S PET</h1>
         </div>
-        <div class="category">
-            <h2>Aumiguinhos esperando por você!</h2>
-            <p>Arraste para conhecê-los.</p>
-            <div class="image-gallery">
-                <img src="dog1.jpg" alt="Dog 1" [routerLink]="['/info']">
-                <img src="dog2.jpg" alt="Dog 2" [routerLink]="['/info']">
+        <div class="container-background">
+
+            <div class="user-info">
+                <div class="user-icon"></div>
+                <span>NOME DO USUÁRIO</span>
+            </div>
+            <div class="container">
+                <div class="category">
+                    <h2>Felinos esperando por você!</h2>
+                    <p>Arraste para conhecê-los.</p>
+                    <div class="image-gallery">
+                        <img src="assets/gato1.jpeg" alt="Cat 1" [routerLink]="['/info']">
+                        <img src="assets/gato2.jpg" alt="Cat 2" [routerLink]="['/info']">
+                        <img src="assets/gato3.jpg" alt="Cat 3" [routerLink]="['/info']">
+                    </div>
+                </div>
+                <div class="category">
+                    <h2>Aumiguinhos esperando por você!</h2>
+                    <p>Arraste para conhecê-los.</p>
+                    <div class="image-gallery">
+                        <img src="assets/cachorro1.jpg" alt="Dog 1" [routerLink]="['/info']">
+                        <img src="assets/cachorro2.jpg" alt="Dog 2" [routerLink]="['/info']">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -38,5 +45,5 @@
         <button class="footer-button active"><span class="icon-paw"></span></button>
     </div>
 </body>
-</html>
 
+</html>

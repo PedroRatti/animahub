@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOS Pet - Home</title>
 </head>
+
 <body>
-    <div class="header">
-        <h1>S.O.S PET</h1>
-    </div>
-    <div class="user-info">
-        <span>S.O.S PET SHOP</span>
-    </div>
-    <div class="container">
-        <div class="category">
-            <h2>BRINQUEDOS</h2>
-            <div class="image-gallery">
-                <img src="brinquedo1.jpg" alt="Brinquedo 1" [routerLink]="['/info']">
-                <img src="brinquedo2.jpg" alt="Brinquedo 2" [routerLink]="['/info']">
-                <img src="brinquedo3.jpg" alt="Brinquedo 3" [routerLink]="['/info']">
-            </div>
+    <div class="wrapper">
+        <div class="header">
+            <h1>S.O.S PET</h1>
         </div>
-        <div class="category">
-            <h2>RAÇÕES</h2>
-            <div class="image-gallery">
-                <img src="racao1.jpg" alt="racao 1" [routerLink]="['/info']">
-                <img src="racao2.jpg" alt="racao 2" [routerLink]="['/info']">
+        <div class="container-background">
+
+            <div class="user-info">
+                <span>S.O.S PET SHOP</span>
+            </div>
+            <div class="container">
+                <div class="category">
+                    <h2>BRINQUEDOS</h2>
+                    <div class="image-gallery">
+                        <img src="assets/mordedor.webp" alt="Cat 1" [routerLink]="['/info']">
+                        <img src="assets/macaco.jpg" alt="Cat 2" [routerLink]="['/info']">
+                        <img src="assets/catfishing.webp" alt="Cat 3" [routerLink]="['/info']">
+                    </div>
+                </div>
+                <div class="category">
+                    <h2>RAÇÕES</h2>
+                    <div class="image-gallery">
+                        <img src="assets/racaogato.jpg" alt="Dog 1" [routerLink]="['/info']">
+                        <img src="assets/racaocao.jpg" alt="Dog 2" [routerLink]="['/info']">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -35,5 +42,5 @@
         <button class="footer-button" [routerLink]="['/home']"><span class="icon-paw"></span></button>
     </div>
 </body>
-</html>
 
+</html>
