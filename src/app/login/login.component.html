@@ -24,7 +24,7 @@
                     <input type="checkbox"> Lembrar senha
                 </label>
                 <a href="#">Esqueceu a senha?</a>
-                <a href="/register">Não tem uma conta? Criar uma</a>
+                <a [routerLink]="['/register']">Não tem uma conta? Criar uma</a>
             </div>
             <button type="submit" [routerLink]="['/home']">Entrar</button>
         </form>
